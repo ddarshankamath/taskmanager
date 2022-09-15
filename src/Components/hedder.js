@@ -30,7 +30,7 @@ export default function Hedder(props) {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="https://github.com/ddarshankamath?tab=repositories"
+                  href="https://github.com/ddarshankamath/taskmanager"
                 >
                   GitHub
                 </a>

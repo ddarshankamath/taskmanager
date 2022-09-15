@@ -10,6 +10,7 @@ const Todos = (props) => {
       {props.todos.length === 0
         ? "No task to display"
         : props.todos.map((todo) => {
+            console.log("hiiiiiiiiiiiiiii", todo);
             return <Todo todo={todo} onDelete={props.onDelete} />;
           })}
 
